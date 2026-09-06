@@ -1104,42 +1104,6 @@ html, body {
   }
 }
 
-/* Admin Link Button in Footer */
-.admin-gear-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 14px;
-  padding: 6px 16px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: var(--radius-pill);
-  color: var(--text-muted);
-  font-size: 0.75rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: var(--transition-smooth);
-}
-
-.admin-gear-link svg {
-  width: 14px;
-  height: 14px;
-  color: var(--accent-cyan);
-  transition: transform 0.5s ease;
-}
-
-.admin-gear-link:hover {
-  background: rgba(0, 242, 254, 0.12);
-  border-color: rgba(0, 242, 254, 0.4);
-  color: var(--text-primary);
-  box-shadow: 0 0 15px rgba(0, 242, 254, 0.2);
-}
-
-.admin-gear-link:hover svg {
-  transform: rotate(90deg);
-}
-
-
   </style>
 
   <!-- Three.js & GLTFLoader -->
@@ -1514,13 +1478,6 @@ html, body {
           <span class="stat-badge">60 FPS OPTIMIZED</span>
           <span class="stat-badge">GLTF READY</span>
         </div>
-        <a href="admin.html" class="admin-gear-link" title="فتح لوحة التحكم" aria-label="لوحة التحكم">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="3"></circle>
-            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-          </svg>
-          لوحة تحكم الموقع (Admin Panel)
-        </a>
       </div>
     </footer>
 
